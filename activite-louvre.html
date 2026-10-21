@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projet InterG - E2C</title>
+<link rel="icon" type="image/png" href="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmFkN2QzNjJhNTQwODE5MWFjZTliMTUxODdlYjc0ZTQ6ZmlsZV8wMDAwMDAwMDBlYTA4MWY0ODRlMDA5N2Q3MGYyYWVhMiIsImdpem1vX2lkIjpudWxsLCJ3aWQiOm51bGwsIm9pZCI6bnVsbCwic2lkIjpudWxsLCJjcyI6bnVsbCwiZm4iOm51bGwsImNkIjpudWxsLCJ0cyI6IjIwNzQ2IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiJmMGJjMGY3NmI4NDU4MmMzN2ViNWU4YTZiNTQ0YmNmZmFiYWFmZWQ0MmY4ZDQ0ODc5MzI4Y2MzYzU1Nzk2MmRkIiwidiI6IjAiLCJjZG4iOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.detail-wrap{max-width:1120px;margin:90px auto 40px;padding:0 20px;display:grid;grid-template-columns:1fr 340px;gap:24px}
+@media(max-width:900px){.detail-wrap{grid-template-columns:1fr}}
+.detail-main h1{font-family:'Outfit';font-size:32px;line-height:1.1;margin:8px 0}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.meta span{background:#F3F4F6;border:1px solid #E9ECF2;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.hero-img{width:100%;height:400px;object-fit:cover;border-radius:20px;margin:14px 0;border:1px solid #E9ECF2}
+.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.photo-grid img{width:100%;height:160px;object-fit:cover;border-radius:14px;border:1px solid #E9ECF2}
+@media(max-width:600px){.photo-grid{grid-template-columns:1fr 1fr} .hero-img{height:250px}}
+.side-card{background:white;border:1px solid #E9ECF2;border-radius:18px;padding:18px;position:sticky;top:80px}
+.side-card h3{font-size:14px;margin-bottom:10px}
+.side-line{font-size:13px;color:#6B7280;margin:8px 0;display:flex;justify-content:space-between}
+.side-line strong{color:#0F172A}
+.back{font-size:13px;color:#1A4C95;text-decoration:none;font-weight:700}
+.desc{color:#475569;font-size:14.5px;line-height:1.7;margin:14px 0}
+.desc h3{color:#0F172A;margin:16px 0 8px}
+</style>
+</head>
+<body>
+<header id="header" class="scrolled"><div class="nav-container"><a href="index.html" class="logo"><img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmFkN2QzNjJhNTQwODE5MWFjZTliMTUxODdlYjc0ZTQ6ZmlsZV8wMDAwMDAwMDBlYTA4MWY0ODRlMDA5N2Q3MGYyYWVhMiIsImdpem1vX2lkIjpudWxsLCJ3aWQiOm51bGwsIm9pZCI6bnVsbCwic2lkIjpudWxsLCJjcyI6bnVsbCwiZm4iOm51bGwsImNkIjpudWxsLCJ0cyI6IjIwNzQ2IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiJmMGJjMGY3NmI4NDU4MmMzN2ViNWU4YTZiNTQ0YmNmZmFiYWFmZWQ0MmY4ZDQ0ODc5MzI4Y2MzYzU1Nzk2MmRkIiwidiI6IjAiLCJjZG4iOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=" style="height:32px"><div class="logo-text"><strong>École de la 2e Chance</strong><span>Reims • Champagne-Ardenne</span></div></a><nav class="nav-links"><a href="index.html">Accueil</a><a href="activites.html" style="color:#1A4C95;font-weight:700">Activités</a><a href="index.html#temoignages">Réussites</a><a href="contact.html" class="btn-nav">Candidater →</a></nav></div></header>
+
+<div class="detail-wrap">
+  <div class="detail-main">
+    <a href="activites.html" class="back">← Retour aux activités</a>
+    <div class="meta"><span>📅 29 Septembre 2026</span><span>📍 Résidence Roux, Reims</span><span>👥 5 jeunes</span><span style="background:#f7f6f6;color:rgb(26, 76, 149);border-color:#f4f4f5">Atelier</span></div>
+    <h1>Une journée de partage entre générations.</h1>
+    <p style="color:#6B7280">Une journée riche en partage, durant laquelle nos jeunes se sont montrés particulièrement investis et bienveillants envers leurs hôtes.</p>
+    <img class="hero-img" src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/838003963_122196996944522032_6686728940559558471_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NNxEno3HYPIQ7kNvwEN0ZIC&_nc_oc=Adpl1xX_R7Oo2OsKVjZ_B1bVJ-pmTwS0XswO1B9dsnOL0iPrfagPR7MCNn0gbpCXIAdL0LanxRGJqL7iqspaAJft&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=jJa4859iASk92YfSFkGObQ&_nc_ss=7b2a8&oh=00_AQMYrlrL6dC0yQNv1UaiflKpBU9OvbDq-iDCSTGPsTXR2w&oe=6ADDBC80">
+    
+    <div class="photo-grid">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/833347166_122196996932522032_7388948516566753086_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dF-WKCWuq1QQ7kNvwGQetTY&_nc_oc=Adpc0yP6ZTqlcqPX8alRZKX-DTHbFMWl5JG3xJXAN5Bk9iu6Bh8dFyWz0Qc9FLMN1vF6RIooFwSC2-JOs1t8_Nwa&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=xXMLVa_R761NuzJdCQf6sA&_nc_ss=7b2a8&oh=00_AQPDSi5tx86S1OFlY6qqhLWS0ua7MYB5iF8hDB9yrlfHIQ&oe=6ADDB3B1">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/834238490_122196996980522032_4547313855180060288_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AldvS5hzJSEQ7kNvwGyBxgj&_nc_oc=AdqFGHweUeQAdh7iJH5gwR1OvyAd8v8FQ0EL1SZPXpka7NODofSHQy7fpNG619NwYymub2f_h9_lZm1wVcCg2MOE&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=MUFDN_NTEqPmUgQ2cJy86Q&_nc_ss=7b2a8&oh=00_AQOK1U11yA1zrWoJjlbtdlpb63kQRwwmsXDykN15zFLBvw&oe=6ADDBF9C">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/834131493_122196996968522032_7863396180924117242_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=G83_9GqH-94Q7kNvwE2yioA&_nc_oc=AdpSBvdqwFhkSNPgUp9kkzS_q9-m4jClBOTGXXqOoVWCf1AV7TtvU7IoU-J43Ts4c3AgvXiJd1bEk52vp2xPoyL9&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=d9rxA1fvhQUP5n2uxD79_Q&_nc_ss=7b2a8&oh=00_AQPRP6BAqxX-raOBRfvBu2wL52rd9yGlO0fcWf1DuqJJCQ&oe=6ADDB249">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/834562207_122196996962522032_9168830198761300015_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0md0IzWiOEQ7kNvwFIY-3d&_nc_oc=Adq0h-ciGRuOSFb3DRcOQ6ygUVQ6CmfvaqlgybN1tnlgUQRVFd3_2YKsF6J_5j3zhBKuYGVmN1NyLgUxvLx3we3V&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=SYpTjFVedJF95AdayrsO5Q&_nc_ss=7b2a8&oh=00_AQOD1fnkVywUmFyz2ZHuoL-O1dKsdAVrexS3iLfy0cFeuA&oe=6ADDBCFB">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/835306066_122196996950522032_1623093996945936105_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7d7ZjcjYGKYQ7kNvwFhrgw5&_nc_oc=Adr4pqfyOrgtFIroJyhOZkCWElq36Zjobd_sviEqEFTlcuVdpBYEbOoqR1HtBIGKodqRboE6PPDAMTR5wRwkq4uY&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=syJwcZa1rTqlqv6s7VEyrQ&_nc_ss=7b2a8&oh=00_AQNQVrS0M2JxnBnZMaW3Fvmd3ZTc_aH1ubGg1AuFUcB4iQ&oe=6ADDA79D">
+      <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t39.30808-6/838791432_122196996956522032_5452823849497731823_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1360&ctp=s1080x1360&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jMwxl0gDs6QQ7kNvwH3AppY&_nc_oc=AdqasS30I-B4cw56IH6kp1mnS7VDtvP29c-NjWjFh7zR2k4aBPLR_cRRsjV-nwSAlhdWDmYX7iaywC7Yd-jdS3Ws&_nc_zt=23&_nc_ht=scontent.fcdg2-1.fna&_nc_gid=Zh_rLp2WuZvtzpgrDg9rzw&_nc_ss=7b2a8&oh=00_AQMzAAlM2_Qk0aZomkkZQ_rSMsiXM9dt8_SiMpi316xOXw&oe=6ADDCB5A">
+    </div>
+
+    <div class="desc">
+      <h3>🎯 Objectif</h3>
+      <p>ils ont préparé le repas, installé les tables et participé au service : frites, saucisses, salade et tarte aux pommes étaient au menu.</p>
+      <h3>✦ Déroulé</h3>
+      <p>L’après-midi, place aux échanges et aux jeux avec les résidents autour d’une partie de pétanque et de jeux de société.</p>
+      <h3>💬 Ils ont dit</h3>
+      <p><em>"Bravo à eux pour leur implication et merci à la résidence Roux pour son accueil"</em> — </p>
+    </div>
+  </div>
+
+  <div class="side-card">
+    <h3>Infos pratiques</h3>
+    <div class="side-line"><span>Date</span><strong>29 Septembre 2026</strong></div>
+    <div class="side-line"><span>Lieu</span><strong>Résidence Roux, Reims</strong></div>
+    <div class="side-line"><span>Participants</span><strong>5 jeunes</strong></div>
+    <div class="side-line"><span>Intervenant</span><strong></strong></div>
+    <hr style="margin:14px 0;border:none;border-top:1px solid #E9ECF2">
+  </div>
+</div>
+
+<div id="lightbox" style="display:none;position:fixed;inset:0;background:rgba(15,23,42,0.85);backdrop-filter:blur(8px);z-index:999;align-items:center;justify-content:center;padding:20px;">
+  <button id="lb-prev" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:white;font-size:22px;cursor:pointer">‹</button>
+  <img id="lightbox-img" style="max-width:85%;max-height:85%;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.5);transform:scale(0.8);transition:.3s">
+  <button id="lb-next" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:white;font-size:22px;cursor:pointer">›</button>
+  <span style="position:absolute;top:20px;right:24px;color:white;font-size:28px;cursor:pointer" onclick="closeLightbox()">×</span>
+</div>
+<script>
+const imgs=[...document.querySelectorAll('.photo-grid img, #slider img, .hero-img')];
+const lb=document.getElementById('lightbox'), lbImg=document.getElementById('lightbox-img');
+let idx=0;
+imgs.forEach((img,i)=>{
+  img.style.cursor='zoom-in';
+  img.addEventListener('click',()=>{ idx=i; lbImg.src=imgs[idx].src; lb.style.display='flex'; setTimeout(()=> lbImg.style.transform='scale(1)',10); });
+});
+function show(k){ idx=(k+imgs.length)%imgs.length; lbImg.src=imgs[idx].src; }
+document.getElementById('lb-prev').onclick=(e)=>{ e.stopPropagation(); show(idx-1) };
+document.getElementById('lb-next').onclick=(e)=>{ e.stopPropagation(); show(idx+1) };
+function closeLightbox(){ lbImg.style.transform='scale(0.8)'; setTimeout(()=> lb.style.display='none',200)}
+lb.addEventListener('click',e=>{ if(e.target===lb) closeLightbox() });
+document.addEventListener('keydown',e=>{ if(lb.style.display==='flex'){ if(e.key==='ArrowLeft') show(idx-1); if(e.key==='ArrowRight') show(idx+1); if(e.key==='Escape') closeLightbox(); }});
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos - E2C Reims</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.propos-wrap{max-width:1120px;margin:90px auto;padding:0 20px}
+.propos-grid{display:grid;grid-template-columns:1fr 380px;gap:20px;margin-top:20px}
+@media(max-width:900px){.propos-grid{grid-template-columns:1fr}}
+.card{background:white;border:1px solid #E9ECF2;border-radius:16px;padding:18px}
+.map{width:100%;height:260px;border:0;border-radius:14px}
+.horaire{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #F3F4F6;font-size:13px}
+.horaire strong{color:#0F172A}
+</style>
+</head>
+<body>
+<header id="header" class="scrolled"><div class="nav-container"><a href="index.html" class="logo"><img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmFkN2QzNjJhNTQwODE5MWFjZTliMTUxODdlYjc0ZTQ6ZmlsZV8wMDAwMDAwMDBlYTA4MWY0ODRlMDA5N2Q3MGYyYWVhMiIsImdpem1vX2lkIjpudWxsLCJ3aWQiOm51bGwsIm9pZCI6bnVsbCwic2lkIjpudWxsLCJjcyI6bnVsbCwiZm4iOm51bGwsImNkIjpudWxsLCJ0cyI6IjIwNzQ2IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiJmMGJjMGY3NmI4NDU4MmMzN2ViNWU4YTZiNTQ0YmNmZmFiYWFmZWQ0MmY4ZDQ0ODc5MzI4Y2MzYzU1Nzk2MmRkIiwidiI6IjAiLCJjZG4iOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=" style="height:32px"><div class="logo-text"><strong>École de la 2e Chance</strong><span>Reims • Champagne-Ardenne</span></div></a><nav class="nav-links"><a href="index.html">Accueil</a><a href="a-propos.html" style="color:#1A4C95;font-weight:700">À propos</a><a href="activites.html">Activités</a><a href="contact.html" class="btn-nav">Candidater →</a></nav></div></header>
+
+<div class="propos-wrap">
+  <span style="font-size:11px;letter-spacing:.12em;color:#DC3545;font-weight:800">À PROPOS DE NOUS</span>
+  <h1 style="font-family:'Outfit';font-size:32px;margin:6px 0">L'E2C Reims, une école pas comme les autres.</h1>
+  <p style="color:#6B7280;max-width:700px">Ouverte aux 16-25 ans sans diplôme, l’E2C t’accompagne gratuitement vers l’emploi ou la formation avec un Formateur dédié.</p>
+
+  <div class="propos-grid">
+    <div>
+      <div class="card">
+        <h3>📍 Nous trouver</h3>
+        <p style="font-size:14px;color:#475569;margin:8px 0"><strong>E2C Reims - Site principal</strong><br>14 All. des Landais, 51100 Reims</p>
+        <iframe class="map" src="https://www.google.com/maps?q=14%20All.%20des%20Landais,%2051100%20Reims&output=embed"></iframe>
+      </div>
+      <div class="card" style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RmBYXYJMVpjkhgtdOyG0xgI1zFbotQyMAzYjfXHsRGDIPvayYmzKq3-5r4vjvZk3Z1vQeb_IPQzzpQaoZ08wC7Tb1wzN6Sh1HUFRW2zBupb7UUvJ3DDwg1QPLV5E4Mbc2tKvYK3g=s680-w680-h510-rw" alt="Vue extérieure des locaux de l’E2C Reims, au 14 allée des Landais." onclick="openLb(this.src)" style="width:100%;height:180px;object-fit:cover;border-radius:12px;border:1px solid #E9ECF2;cursor:zoom-in">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QSnbKuPtUO25BjJZ3N5tn9REfrpH4IotvsvNzSmO4d89oMQwn0oLD4l0KyzKa5ALlvkzQIB6VtEvJO0rON2k9hSrTb6btPZNoeBq-Bl7ip_3fWii-HJ_bYYK6eKldfgAWC14Fkgw=s680-w680-h510-rw" alt="Autre vue extérieure des locaux de l’E2C Reims, dans leur environnement à Reims." onclick="openLb(this.src)" style="width:100%;height:180px;object-fit:cover;border-radius:12px;border:1px solid #E9ECF2;cursor:zoom-in">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QU22M8WiIq9fsKcAF8jQqqt6LHoWeaKcx8g5h1gXrZMFghqUsR_W_uiX1hLZ7azSBP4daoE7Yy70InLgqcTe4EZH_8PGaV70tY9Tud4CergMFRghrfqBgtHQqchNBWYblf4CUi=s680-w680-h510-rw" alt="Vue extérieure des locaux de l’E2C Reims, dans leur environnement à Reims." onclick="openLb(this.src)" style="width:100%;height:180px;object-fit:cover;border-radius:12px;border:1px solid #E9ECF2;cursor:zoom-in">
+      </div>
+      <div class="card" style="margin-top:14px">
+        <h3>✦ Notre mission</h3>
+        <p style="font-size:14px;color:#475569;line-height:1.6">Révéler le potentiel de chaque jeune par l’alternance entre ateliers et stages en entreprise, avec un accompagnement individualisé jusqu’à 12 mois après la sortie.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <h3>🕘 Horaires</h3>
+        <div class="horaire"><span>Lundi - Vendredi</span><strong>8h30 - 12h30, 13h15 - 17h15</strong></div>
+        <div class="horaire"><span>Samedi</span><strong>Fermé</strong></div>
+        <div class="horaire"><span>Dimanche</span><strong>Fermé</strong></div>
+        <p style="font-size:12px;color:#6B7280;margin-top:10px"></p>
+      </div>
+      <div class="card" style="margin-top:14px;background:#1A4C95;color:white;border-color:#1A4C95">
+        <h3 style="color:white">📞 Contact</h3>
+        <p style="font-size:14px">03 10 73 02 40<br>contact@e2c-paris.fr</p>
+        <a href="contact.html" style="display:block;text-align:center;margin-top:12px;background:white;color:#1A4C95;padding:10px;border-radius:999px;text-decoration:none;font-weight:700">Nous écrire →</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="lb2" style="display:none;position:fixed;inset:0;background:rgba(15,23,42,0.75);backdrop-filter:blur(8px);z-index:999;align-items:center;justify-content:center;padding:20px"><img id="lb2-img" style="max-width:90%;max-height:90%;border-radius:16px;transform:scale(0.8);transition:.3s"><span style="position:absolute;top:20px;right:24px;color:white;font-size:28px;cursor:pointer" onclick="closeLb()">×</span></div>
+<script>
+const lb2=document.getElementById('lb2'), lb2Img=document.getElementById('lb2-img');
+function openLb(src){ lb2Img.src=src; lb2.style.display='flex'; setTimeout(()=>lb2Img.style.transform='scale(1)',10)}
+function closeLb(){ lb2Img.style.transform='scale(0.8)'; setTimeout(()=>lb2.style.display='none',200)}
+lb2.onclick=e=>{ if(e.target===lb2) closeLb() }
+</script>
+</body>
+</html>
